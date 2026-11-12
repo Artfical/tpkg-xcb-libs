@@ -1,0 +1,23 @@
+{
+ "name": "xcb-libs",
+ "version": "1.17.0",
+ "license": "MIT",
+ "homepage": "https://xcb.freedesktop.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "libxcb-1.17.0.tar.xz"
+ ],
+ "desc": "The rest of libxcb: the extension libraries (render, shape, xfixes, sync, randr, xkb, xinput, glx...) and the xcb headers, for Qt and other X programs",
+ "file": "xcb-libs-1.17.0.tpkg",
+ "size": 1017350,
+ "sha256": "c6f27c44c4a1a0da3fcd06e5998aded58dd302736102a376868b0740282be2ae",
+ "unpacked": 4797635,
+ "min_build": 618,
+ "depends": [
+  "xorg"
+ ],
+ "commands": {}
+}

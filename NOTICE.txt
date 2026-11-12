@@ -1,0 +1,4 @@
+libxcb extension libraries for tOS
+===================================
+
+These are the libxcb-*.so libraries of the libxcb-1.17.0.tar.xz that the xorg package is built from (the tarball is beside this package), unmodified, from the same build: the xorg package carries libxcb itself and xcb-shm; this one carries the extensions the Qt xcb platform plugin and other X programs need, and the headers (include/xcb) and pkg-config files to build against them. Each library is one file under its soname; libfoo.so is a linker script that points at it. License: MIT (LICENSE).
